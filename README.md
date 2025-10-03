@@ -7,19 +7,27 @@ Este es un proyecto básico de Vue 3 que utiliza Vue Router, Pinia y Tailwind CS
 ```
 vue-project
 ├── public
-│   └── index.html
+│   └── avatar.png
+│   └── logo
 ├── src
 │   ├── assets
 │   │   └── main.css
 │   ├── components
-│   │   └── HelloWorld.vue
+│   │   └── Estructura_Web
+│   │       └── Dashboard
+│   │       └── Footer
+│   │       └── Header
+│   │       └── Panel_Derecho
+│   │       └── Panel_Izquierdo
+│   │       └── SidebarLink
 │   ├── router
 │   │   └── index.js
 │   ├── stores
-│   │   └── counter.js
+│   │   └── ui.js
 │   ├── views
-│   │   ├── AboutView.vue
-│   │   └── HomeView.vue
+│   │   ├── home
+│   │   └── login
+|   |   └── perfil
 │   ├── App.vue
 │   └── main.js
 ├── package.json
