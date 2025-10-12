@@ -23,6 +23,8 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+
+//-------------------------------
 // Control necesario para controlar el Modal
 const show = ref(false)
 
