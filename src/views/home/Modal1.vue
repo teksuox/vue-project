@@ -4,7 +4,7 @@
     class="fixed inset-0 z-50 flex items-center justify-center"
     @click.self="close"
   >
-    <div :class="[modalClass, 'bg-white rounded shadow-lg relative']" class="p-6">
+    <div :class="[modalClass, 'bg-white rounded shadow-lg relative p-6']" >
       <button
         class="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
         @click="close"
@@ -36,7 +36,7 @@ function close() {
 }
 
 const modalClass = computed(() => {
-  return 'w-[800px] min-h-[400px] bg-white rounded shadow-lg relative p-6 overflow-y-auto max-h-[80vh]'
+  return 'w-[500px] min-h-[600px] overflow-y-auto max-h-[80vh]'
 })
 
 defineExpose({ open, close })
