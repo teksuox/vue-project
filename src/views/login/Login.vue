@@ -62,8 +62,8 @@ import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
-const email = ref('');
-const password = ref('');
+const email = ref('ejemplo@prueba.cl');
+const password = ref('123456789');
 
 function handleLogin() {
   // Aquí iría la lógica de autenticación real (ej. llamar a una API)

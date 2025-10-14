@@ -34,7 +34,7 @@ function open() {
 function close() {
   show.value = false
 }
-
+//tamaño del modal y scroll
 const modalClass = computed(() => {
   return 'w-[500px] min-h-[600px] overflow-y-auto max-h-[80vh]'
 })

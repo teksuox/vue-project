@@ -6,6 +6,7 @@
       @click="onClick"
       :class="uiStore.isLeftPanelOpen ? 'justify-start' : 'justify-center'"
       class="flex items-center h-12 rounded-md text-gray-300 hover:bg-gray-700 hover:text-white"
+      active-class="bg-gray-700 text-white"
     >
       <!-- Slot para el icono: aquí se inyectará el SVG -->
       <slot name="icon"></slot>
